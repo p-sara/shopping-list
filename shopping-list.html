@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+     <meta charset="UTF-8">
+    <title>Lista zakupów</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/app.js" type="text/javascript"></script>    
+    
+</head>  
+    
+    <body>
+    <div class="add">
+        <label id="item">Przedmiot:</label>
+        <input type="text" id="product">
+        <label>Ilość:</label>
+        <input type="text" id="quantity">
+        <label>Cena:</label>
+        <input type="text" id="price">
+        </div>
+  <button id="addBtn">Dodaj przedmiot</button>
+        <table>
+          <tr>
+            <td></td> 
+            <td>Przedmiot</td>
+            <td>Ilość</td>  
+            <td>Cena</td> 
+            <td>Suma</td>  
+          <tr>
+            <td colspan="4">Łączna kwota</td>  
+            <td id="howMuch">0</td>  
+          </tr>
+            
+        </table>
+    </body> 
+    
+</html>
