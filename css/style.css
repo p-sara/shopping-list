@@ -1,9 +1,45 @@
+body {
+  margin:0;
+  padding:0;
+}
+.background-image {
+  background-image: url(../images/mall.jpg);
+  background-size: cover;
+  display: block;
+  filter: blur(3px);
+  -webkit-filter: blur(3px);
+  height: 800px;
+  left: 0;
+  position: fixed;
+  right: 0;
+  z-index: 1;
+  margin: 0;
+} 
+.content {
+  background: rgba(255, 255, 255, 0.35);
+  border-radius: 3px;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  top: 10px;
+  left: 0;
+  position: fixed;
+  margin-left: 20px;
+  margin-right: 20px;
+  right: 0;
+  z-index: 2;
+  padding: 0 10px;
+}
 table, tr, td {
     border:1px solid black;
     margin: 0;
     border-collapse:collapse;
-    padding: 1px;
-   
+    padding: 1px;  
+}
+.table {
+  height:400px;
+  width:500px;
+  border: 1px solid red;
+  overflow:auto;
 }
  
 .strike {

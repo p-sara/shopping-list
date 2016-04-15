@@ -2,35 +2,40 @@
 <html>
 <head>
      <meta charset="UTF-8">
-    <title>Lista zakupów</title>
+    <title>Shopping list</title>
     <link rel="stylesheet" href="css/style.css">
     <script src="js/app.js" type="text/javascript"></script>    
     
 </head>  
     
     <body>
+      <div class="background-image"></div>
+      <div class="content">
     <div class="add">
-        <label id="item">Przedmiot:</label>
+        <label id="item">Item:</label>
         <input type="text" id="product">
-        <label>Ilość:</label>
+        <label>Quantity:</label>
         <input type="text" id="quantity">
-        <label>Cena:</label>
+        <label>Price:</label>
         <input type="text" id="price">
         </div>
-  <button id="addBtn">Dodaj przedmiot</button>
+  <button id="addBtn">Add item</button>
+        <div class="table">
         <table>
           <tr>
             <td></td> 
-            <td>Przedmiot</td>
-            <td>Ilość</td>  
-            <td>Cena</td> 
-            <td>Suma</td>  
+            <td>Item</td>
+            <td>Quantity</td>  
+            <td>Price</td> 
+            <td>Total</td>  
           <tr>
-            <td colspan="4">Łączna kwota</td>  
+            <td colspan="4">To pay</td>  
             <td id="howMuch">0</td>  
           </tr>
             
         </table>
+        </div>
+      </div>
     </body> 
     
 </html>
