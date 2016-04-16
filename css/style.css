@@ -35,6 +35,10 @@ table, tr, td {
     border-collapse:collapse;
     padding: 1px;  
 }
+.to_pay {
+  font-size:35px;
+  color:red;
+}
 .table {
   height:400px;
   width:500px;

@@ -13,9 +13,9 @@ document.addEventListener("DOMContentLoaded", function() {
 
  function addProduct() {
     var removeBtn = document.createElement("button");
-    removeBtn.innerHTML="Skreśl przedmiot";
+    removeBtn.innerHTML="Remove item";
    
-    var row = table.insertRow(1);
+    var row = table.insertRow(2);
     var cell1 = row.insertCell(0);
     var cell2 = row.insertCell(1);
     var cell3 = row.insertCell(2);
@@ -31,14 +31,14 @@ document.addEventListener("DOMContentLoaded", function() {
         cell3.innerHTML = parseFloat(quantityInput.value);
     }
     else {    
-        alert("Proszę podać ilość produktów");
+        alert("Please, insert quantity of products");
         cell3.innerHTML = parseFloat("0");
     }
      if (priceInput.value !== "") {
         cell4.innerHTML = parseFloat(priceInput.value);
     }
     else {    
-        alert("Proszę podać cenę produktu");
+        alert("Please, insert price of product");
         cell4.innerHTML = parseFloat("0");
     }  
      
@@ -51,6 +51,8 @@ document.addEventListener("DOMContentLoaded", function() {
     else {
         cell5.innerHTML = parseFloat(quantity.value)*parseFloat(price.value);
     }
+   
+    
      
      //moj event dla strike:
        removeBtn.addEventListener("click", function(event){
@@ -62,8 +64,12 @@ document.addEventListener("DOMContentLoaded", function() {
      for (var z=0;z<myRow.length;z++) {
         var subRowValue = myRow[z].lastChild.innerHTML;
         if (subRowValue && !myRow[z].classList.contains("strike")) { 
-          	howMuch.innerHTML = parseFloat(howMuch.innerHTML)+parseFloat(subRowValue); 
+          	howMuch.innerHTML = parseFloat(howMuch.innerHTML)+parseFloat(subRowValue);
+            removeBtn.innerHTML="Add";
         }
+       else {
+         removeBtn.innerHTML="Addno";
+       }
      }
                   
     });
@@ -75,10 +81,16 @@ document.addEventListener("DOMContentLoaded", function() {
             howMuch.innerHTML = parseFloat(suma);
         }
         //jeśli row ma klasę strike to należy odjąć jego cell5 od całej sumy
+   
      
     };
 
-     addItem.addEventListener("click", addProduct); 
+     addItem.addEventListener("click", addProduct);
+   function clearField () {
+     quantityInput.reset();
+     priceInput.reset();
+   }
+    addItem.addEventListener("click", clearField);
     
     
  
