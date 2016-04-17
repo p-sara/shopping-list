@@ -29,23 +29,56 @@ body {
   z-index: 2;
   padding: 0 10px;
 }
+h1 {
+  color: white; 
+   font: bold 62px Helvetica, Arial, Sans-Serif;
+    text-align:center;
+   text-shadow: 1px 1px #ECDC11, 
+                2px 2px #ECDC11, 
+                3px 3px #ECDC11, 
+                4px 4px #ECDC11, 
+                5px 5px #ECDC11, 
+                6px 6px #ECDC11;  
+}
+.add {
+    font-size: 25px;
+    color:white;
+    text-shadow: 0 -.04em .04em red;
+}
 table, tr, td {
     border:1px solid black;
     margin: 0;
     border-collapse:collapse;
     padding: 1px;  
 }
-.to_pay {
-  font-size:35px;
-  color:red;
+input {
+    font-size:25px;
 }
 .table {
   height:400px;
   width:500px;
   border: 1px solid red;
   overflow:auto;
+  text-align:right;
+    font-size: 25px;
+    color:white;
+    text-shadow: 0 -.04em .04em red;
+    margin-top:5%;
 }
- 
+.to_pay {
+  color: white; 
+   font: bold 42px Helvetica, Arial, Sans-Serif;
+    text-align:left;
+   text-shadow: 1px 1px #4D2C73, 
+                2px 2px #4D2C73, 
+                3px 3px #4D2C73, 
+                4px 4px #4D2C73, 
+                5px 5px #4D2C73; 
+                
+}
+.to_pay p {
+   margin:10px; 
+} 
 .strike {
    text-decoration: line-through; 
 }
