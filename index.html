@@ -1,42 +1,62 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-     <meta charset="UTF-8">
-    <title>Shopping list</title>
-    <link rel="stylesheet" href="css/style.css">
-    <script src="js/app.js" type="text/javascript"></script>    
-    
-</head>  
-    
-    <body>
-      <div class="background-image"></div>
-      <div class="content">
+  <meta charset="UTF-8">
+  <title>Shopping list</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/app.js" type="text/javascript"></script>
+
+</head>
+
+<body>
+  <div class="background-image"></div>
+  <div class="content">
+    <h1>Your personal shopping list</h1>
     <div class="add">
-        <label id="item">Item:</label>
-        <input type="text" id="product">
-        <label>Quantity:</label>
-        <input type="text" id="quantity">
-        <label>Price:</label>
-        <input type="text" id="price">
+      <div class="inputs">
+        <div>
+          <label id="item">Item:</label>
+          <input type="text" id="product">
         </div>
-  <input type="reset" value="Add item" id="addBtn"/>
-        <div class="table">
-        <table>
-          <tr class="to_pay">
-            <td colspan="4">To pay</td>  
-            <td id="howMuch">0</td>  
-          </tr>
-          <tr>
-            <td></td> 
-            <td>Item</td>
-            <td>Quantity</td>  
-            <td>Price</td> 
-            <td>Total</td>  
-          
-            
-        </table>
+        <div>
+          <label>Quantity:</label>
+          <input type="text" id="quantity">
+        </div>
+        <div>
+          <label>Price:</label>
+          <input type="text" id="price">
         </div>
       </div>
-    </body> 
-    
+      <div id="addBtn">
+        <div class="outer">
+          <div class="height">
+            <div class="inner">Add item</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="table">
+      <table>
+        <tr class="to_pay">
+          <td colspan="4">
+            <p>To pay</p>
+          </td>
+          <td id="howMuch">
+            <p>0</p>
+          </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>Item</td>
+          <td>Quantity</td>
+          <td>Price</td>
+          <td>Total</td>
+
+
+      </table>
+    </div>
+  </div>
+</body>
+
 </html>
