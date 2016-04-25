@@ -25,13 +25,11 @@ body {
   font-family: 'Quicksand', sans-serif;
   left: 0;
   position: absolute;
-  margin: 10px;
-  margin-left: 20px;
-  margin-right: 20px;
+  margin: 0.7% 2%;
   right: 0;
   z-index: 2;
-  height: 97%;
-  padding: 0 10px;
+  height: 96%;
+  padding: 5px 10px;
   display: -ms-flexbox;
   display: -webkit-flex;
   display: flex;
@@ -49,6 +47,8 @@ h1 {
   font-family: 'Lobster', cursive;
   text-align: center;
   text-shadow: 1px 1px #1B5A87, 2px 2px #1B5A87, 3px 3px #1B5A87, 4px 4px #1B5A87, 5px 5px #1B5A87;
+  margin:0;
+  margin-bottom:8%;
 }
 
 .add {
@@ -212,29 +212,18 @@ input {
   box-shadow: none;
 }
 
-.table {
-  height: 200px;
-  width: auto;
-  overflow: auto;
-  text-align: right;
-  font-size: 25px;
-  color: white;
-  text-shadow: 0 -.06em .06em #12323D;
-  margin-top: 5%;
-  display: flex;
-  justify-content: center;
-  margin-bottom: 50px;
-}
-
 .to_pay {
+  margin-top:20px;
   color: white;
   font: bold 36px 'Quicksand', Arial, Sans-Serif;
   text-align: left;
   text-shadow: 1px 1px #176883, 2px 2px #176883, 3px 3px #176883, 4px 4px #176883, 5px 5px #176883;
+  margin-top:10%;
 }
 
 .to_pay p {
   margin: 10px;
+  display:inline-block;
 }
 
 input {
@@ -242,10 +231,12 @@ input {
   display: inline-block;
   width: 15%;
 }
-
+label {
+  margin-left:10px;
+}
 .table {
-  height: 200px;
-  width: auto;
+  height: 250px;
+  width:450px;
   overflow: auto;
   text-align: right;
   font-size: 25px;
@@ -256,10 +247,6 @@ input {
   display: flex;
   justify-content: center;
   margin-bottom: 50px;
-}
-
-.to_pay p {
-  margin: 10px;
 }
 
 .strike {
