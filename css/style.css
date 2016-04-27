@@ -235,9 +235,10 @@ label {
   margin-left:10px;
 }
 .table {
-  height: 250px;
-  width:450px;
+  height: 350px;
+  width:auto;
   overflow: auto;
+  box-sizing: border-box;
   text-align: right;
   font-size: 25px;
   color: white;
@@ -248,7 +249,6 @@ label {
   justify-content: center;
   margin-bottom: 50px;
 }
-
 .strike {
   text-decoration: line-through;
 }
