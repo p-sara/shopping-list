@@ -42,13 +42,13 @@ body {
 }
 h1 {
   color: white;
-  font-size:68px;
+  font-size:55px;
   font-weight:bold;
   font-family: 'Lobster', cursive;
   text-align: center;
   text-shadow: 1px 1px #1B5A87, 2px 2px #1B5A87, 3px 3px #1B5A87, 4px 4px #1B5A87, 5px 5px #1B5A87;
   margin:0;
-  margin-bottom:8%;
+  margin-bottom:4%;
 }
 
 .add {
@@ -235,7 +235,7 @@ label {
   margin-left:10px;
 }
 .table {
-  height: 350px;
+  height: 450px;
   width:auto;
   overflow: auto;
   box-sizing: border-box;
@@ -244,10 +244,10 @@ label {
   color: white;
   font-family: 'Quicksand', Arial, sans-serif;
   text-shadow: 0 -.06em .06em #12323D;
-  margin-top: 5%;
+  margin-top: 20px;
+  margin-bottom: 20px;
   display: flex;
   justify-content: center;
-  margin-bottom: 50px;
 }
 .strike {
   text-decoration: line-through;
