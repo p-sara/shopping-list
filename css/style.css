@@ -43,7 +43,6 @@ body {
 
 h1 {
   color: white;
-<<<<<<< HEAD
   font-size: 68px;
   font-weight: bold;
   font-family: 'Lobster', cursive;
@@ -51,7 +50,6 @@ h1 {
   text-shadow: 1px 1px #1B5A87, 2px 2px #1B5A87, 3px 3px #1B5A87, 4px 4px #1B5A87, 5px 5px #1B5A87;
   margin: 0;
   margin-bottom: 8%;
-=======
   font-size:55px;
   font-weight:bold;
   font-family: 'Lobster', cursive;
@@ -59,7 +57,6 @@ h1 {
   text-shadow: 1px 1px #1B5A87, 2px 2px #1B5A87, 3px 3px #1B5A87, 4px 4px #1B5A87, 5px 5px #1B5A87;
   margin:0;
   margin-bottom:4%;
->>>>>>> 12083ec37d04c4bf439dbb53305ffe9847814480
 }
 
 .add {
