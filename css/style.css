@@ -40,15 +40,16 @@ body {
   align-items: center;
   justify-content: center;
 }
+
 h1 {
   color: white;
-  font-size:68px;
-  font-weight:bold;
+  font-size: 68px;
+  font-weight: bold;
   font-family: 'Lobster', cursive;
   text-align: center;
   text-shadow: 1px 1px #1B5A87, 2px 2px #1B5A87, 3px 3px #1B5A87, 4px 4px #1B5A87, 5px 5px #1B5A87;
-  margin:0;
-  margin-bottom:8%;
+  margin: 0;
+  margin-bottom: 8%;
 }
 
 .add {
@@ -213,17 +214,17 @@ input {
 }
 
 .to_pay {
-  margin-top:20px;
+  margin-top: 20px;
   color: white;
   font: bold 36px 'Quicksand', Arial, Sans-Serif;
   text-align: left;
   text-shadow: 1px 1px #176883, 2px 2px #176883, 3px 3px #176883, 4px 4px #176883, 5px 5px #176883;
-  margin-top:10%;
+  margin-top: 10%;
 }
 
 .to_pay p {
   margin: 10px;
-  display:inline-block;
+  display: inline-block;
 }
 
 input {
@@ -231,12 +232,14 @@ input {
   display: inline-block;
   width: 15%;
 }
+
 label {
-  margin-left:10px;
+  margin-left: 10px;
 }
+
 .table {
   height: 350px;
-  width:auto;
+  width: auto;
   overflow: auto;
   box-sizing: border-box;
   text-align: right;
@@ -249,6 +252,7 @@ label {
   justify-content: center;
   margin-bottom: 50px;
 }
+
 .strike {
   text-decoration: line-through;
 }
