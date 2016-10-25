@@ -43,6 +43,7 @@ body {
 
 h1 {
   color: white;
+<<<<<<< HEAD
   font-size: 68px;
   font-weight: bold;
   font-family: 'Lobster', cursive;
@@ -50,6 +51,15 @@ h1 {
   text-shadow: 1px 1px #1B5A87, 2px 2px #1B5A87, 3px 3px #1B5A87, 4px 4px #1B5A87, 5px 5px #1B5A87;
   margin: 0;
   margin-bottom: 8%;
+=======
+  font-size:55px;
+  font-weight:bold;
+  font-family: 'Lobster', cursive;
+  text-align: center;
+  text-shadow: 1px 1px #1B5A87, 2px 2px #1B5A87, 3px 3px #1B5A87, 4px 4px #1B5A87, 5px 5px #1B5A87;
+  margin:0;
+  margin-bottom:4%;
+>>>>>>> 12083ec37d04c4bf439dbb53305ffe9847814480
 }
 
 .add {
@@ -238,8 +248,13 @@ label {
 }
 
 .table {
+<<<<<<< HEAD
   height: 350px;
   width: auto;
+=======
+  height: 450px;
+  width:auto;
+>>>>>>> 12083ec37d04c4bf439dbb53305ffe9847814480
   overflow: auto;
   box-sizing: border-box;
   text-align: right;
@@ -247,10 +262,10 @@ label {
   color: white;
   font-family: 'Quicksand', Arial, sans-serif;
   text-shadow: 0 -.06em .06em #12323D;
-  margin-top: 5%;
+  margin-top: 20px;
+  margin-bottom: 20px;
   display: flex;
   justify-content: center;
-  margin-bottom: 50px;
 }
 
 .strike {
