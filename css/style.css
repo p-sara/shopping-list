@@ -245,13 +245,10 @@ label {
 }
 
 .table {
-<<<<<<< HEAD
   height: 350px;
   width: auto;
-=======
   height: 450px;
   width:auto;
->>>>>>> 12083ec37d04c4bf439dbb53305ffe9847814480
   overflow: auto;
   box-sizing: border-box;
   text-align: right;
@@ -272,3 +269,4 @@ label {
 .strike {
   text-decoration: line-through;
 }
+
